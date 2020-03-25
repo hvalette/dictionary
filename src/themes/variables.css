@@ -1,0 +1,9 @@
+:root {
+    --padding: 5%;
+}
+
+@media only screen and (max-width: 600px) {
+    :root {
+        --padding: 2%;
+    }
+}
