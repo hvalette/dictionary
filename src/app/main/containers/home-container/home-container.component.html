@@ -1,1 +1,11 @@
-<p>home-container works!</p>
+<div class="page container">
+    <div class="presentation">
+        <div>
+            Bienvenue sur le site
+        </div>
+        <button (click)="explore()" class="explore-btn">Explore</button>
+    </div>
+    <div class="random-definition">
+        <app-definition-card [definition]="randomDefinition"></app-definition-card>
+    </div>
+</div>

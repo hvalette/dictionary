@@ -5,6 +5,8 @@ import { HomeContainerComponent } from './containers/home-container/home-contain
 import { DefinitionDetailContainerComponent } from './containers/definition-detail-container/definition-detail-container.component';
 import { DefinitionsContainerComponent } from './containers/definitions-container/definitions-container.component';
 import { MainRoutingModule } from './main-routing.module';
+import { DefinitionService } from './services/definition.service';
+import { DefinitionsResolver } from './definitions.resolver';
 
 @NgModule({
     declarations: [
@@ -14,5 +16,6 @@ import { MainRoutingModule } from './main-routing.module';
         DefinitionsContainerComponent,
     ],
     imports: [CommonModule, MainRoutingModule],
+    providers: [DefinitionService, DefinitionsResolver],
 })
 export class MainModule {}

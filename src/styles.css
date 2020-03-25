@@ -1,1 +1,16 @@
-/* You can add global styles to this file, and also import other style files */
+@import url(themes/variables.css);
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+.page {
+    position: absolute;
+    height: auto;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
